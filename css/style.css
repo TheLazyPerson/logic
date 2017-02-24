@@ -1,0 +1,424 @@
+.text-center{
+	text-align: center;
+}
+
+section{
+	min-height: 100vh;
+}
+#canvas {
+	background-color: #ffffff;
+    position:absolute;
+    top:0;
+    left:0;
+    height: 100vh;
+}
+#content {
+    z-index: 10;
+    position: relative;
+}
+#wrapper{
+	height:80vh;
+	width: 100%;
+	/*background: rgba(0,0,0,0.3);*/
+}
+#wrapper {
+    display:table;
+}
+#herotext {
+    display:table-cell;
+    position:relative;
+    vertical-align:middle;
+    text-align:center;
+}
+#herotext img{
+	display:block;
+    margin:auto;
+}
+#herotext h1{
+	text-transform: uppercase;
+	color: #fff;
+	font-family: 'Montserrat', open sans;
+	font-size:67px;
+
+}
+
+#herotext h4{
+	text-transform: uppercase;
+	color:#fff;
+	font-family: 'Montserrat', open sans;
+	font-size:40px;
+}
+.navbar{
+
+	border-radius: 0px !important;
+	height: 10vh;
+}
+.navigation{
+	background-color: #ffffff !important;
+
+
+}
+.navigation li a{
+	font-family: 'Open Sans', sans-serif;
+	text-transform: uppercase;	
+	  font-size: 12px;
+	  font-weight: 600;
+	  font-style: normal;
+	  font-stretch: normal;
+	  letter-spacing: 0.6px;
+	  text-align: left;
+	  color: #373a39;
+}
+
+.navbar-default .navbar-nav>.active>a, 
+.navbar-default .navbar-nav>.active>a:focus, 
+.navbar-default .navbar-nav>.active>a:hover{
+	color:#373a39 !important;
+	background-color: #ffffff !important;
+	border-bottom: solid 2px #fcbb08;
+  
+}
+.navbar-default {
+
+}
+
+
+/*
+	About Us
+ */
+
+#aboutus{
+	background-color: #f6f8fa;
+
+}
+.alignFix {
+    display:table;
+    height: 100vh;
+}
+.alignFix .sample {
+    display:table-cell;
+    vertical-align:middle;
+}
+ h1{
+	font-family: Montserrat;
+	font-size: 60px;
+	font-weight: bold;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1.25;
+	letter-spacing: -1.6px;
+	color: #242121;
+	
+}
+ h1 span{
+	border-bottom: solid 5px #fcbb08; 
+}
+#aboutus .content{
+	font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.71;
+  color: #373a39;
+  text-align: justify;
+}
+
+#ourexpertise{
+  background-color: #ffffff;
+}
+
+.services, #ourexpertise .description{
+	margin-top: 10vh;
+	
+}
+#ourexpertise .description h4{
+	font-family: 'Open Sans', sans-serif;
+  	font-size: 16px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1.71;
+	color: #373a39; 
+}
+#ourexpertise .services .title{
+	font-family: 'Open Sans', sans-serif;
+  	margin-top: 0px !important;
+
+	  font-size: 16px;
+	  font-weight: normal;
+	  font-style: normal;
+	  font-stretch: normal;
+	  line-height: 1.43;
+	  letter-spacing: 1.3px;
+	  color: #333333;
+}
+#ourexpertise .services .service-description{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1.71;
+	color: #777777;
+	margin-top:20px; 
+	text-align: justify;
+}
+
+#ourproducts{
+	background-color: #f6f8fa;
+}
+
+
+#ourproducts h2{
+	font-family: 'Montserrat', open sans;
+	font-size: 40px;
+	font-weight: bold;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1.3;
+	text-align: left;
+	color: #242121;
+	margin-top: 10vh !important; 
+}
+
+#ourproducts .product-image{
+	margin-top: 10vh !important;
+}
+#ourproducts .product-description{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1.71;
+	color: #777777;
+	margin-top: 5vh; 
+	text-align: justify;
+}
+.arrow-left{
+	width: 35px;
+  height: 35px;
+  object-fit: contain;
+  margin-left: auto;
+  margin-right: auto; 
+
+}
+.arrow-right{
+	width: 35px;
+  height: 35px;
+  object-fit: contain;
+  margin-left: auto;
+  margin-right: auto; 
+}
+
+.outside{
+	height: 80vh;
+	width: 100%;
+}
+.outside {
+    display:table;
+}
+.inside {
+    display:table-cell;
+    position:relative;
+    vertical-align:middle;
+    text-align:center;
+}
+.slick-dots li.slick-active button:before,
+.slick-dots li:hover button:before
+{
+    font-size: 10px;
+    line-height: 20px;
+    
+}
+.slick-dots li{
+	margin: 0px 0px !important;
+}
+
+.products{
+	padding-bottom: 10vh !important;
+}
+#arrow-l{
+	height:35px;
+	width: 35px;
+}
+
+#portfolio{
+	background-color: #ffffff;
+}
+#portfolio .secondSection{
+	margin-top:10vh;
+}
+
+.view-more{
+	background-color: #fcbb08 !important;
+	width:230px;
+	border: none !important;
+	border-radius: 0px !important;
+	color:#000000 !important;
+	padding-top: 14px;
+	padding-bottom: 14px;
+	font-size:11px;
+	font-family: 'Montserrat', open sans; 
+	font-weight: bold;
+	font-style: normal;
+	font-stretch: normal;
+	letter-spacing: 2px;
+	text-align: center;
+	margin-top:10vh;
+}
+#portfolio h3{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	font-weight: 600;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1;
+	letter-spacing: 1.4px;
+	text-align: center;
+	color: #000000;
+}
+#portfolio p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	font-weight: 300;
+	font-style: normal;
+	font-stretch: normal;
+	letter-spacing: 1px;
+	text-align: center;
+	color: #000000;
+}
+
+#portfolio h3, #portfolio p{
+	text-transform: uppercase;
+	text-align: center
+}
+
+#testimonials{
+	height: 40vh;
+	background-color: #f6f8fa;
+}
+
+#testimonials .testimonial h3{
+	margin-top:5vh;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	font-weight: 600;
+	font-style: italic;
+	font-stretch: normal;
+	line-height: 2;
+	text-align: center;
+	color: #242121;
+}
+#testimonials .testimonial p{
+	margin-top:5vh;
+	font-family: 'Montserrat', open sans; 
+	font-size: 14px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 2.29;
+	text-align: center;
+	color: #9e9e9e;
+}
+
+#bottom {
+	height: 60vh;
+	background-color: #373a39;
+}
+#bottom img{
+	margin-top: 5vh !important;
+	padding-bottom: 10px;
+  	border-bottom: solid 2px #fcbb08;
+}
+#bottom img{
+	display:block;
+    margin:auto;
+
+}
+
+#bottom .socialMediaLinks{
+	margin-top: 5vh !important;
+	
+}
+#bottom .socialMediaLinks a{
+	text-align: center;
+	font-family: 'Montserrat', open sans; 
+	font-size: 12px;
+	font-weight: 300;
+	font-style: normal;
+	font-stretch: normal;
+	letter-spacing: 2px;
+	color: #ffffff;
+}
+#bottom  a:hover,
+#bottom  a:focus{
+	color:#fcbb08;
+	text-decoration: none;
+}
+#bottom .address-line{
+	margin-top: 5vh;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 2.29;
+	text-align: center;
+	color: #a8a8a8;
+}
+.products .view-more{
+	margin-top: 5px;
+}
+
+#contactus{
+	padding-top:10vh;
+	background-color: #f6f8fa;
+}
+
+#contactus .content{
+
+		font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.71;
+  color: #373a39;
+  text-align: justify;
+}
+
+#contactus .socialMediaLinks{
+	margin-top:10vh;
+}
+#form{
+	padding-top:10vh;
+}
+#form form {
+	margin-top:10vh;
+}
+
+#form .text-field-updated{
+	border:none;
+	border-bottom: 2px solid #373a39;
+	box-shadow: none !important;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1.67;
+	letter-spacing: 3.7px;
+	color: #000000;
+	margin-top:10px;
+}
+
+
+.grey{
+	 background-color: #f6f8fa !important;
+}
+
+.white{
+	 background-color: #ffffff !important;
+}
